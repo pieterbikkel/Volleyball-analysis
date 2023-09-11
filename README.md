@@ -1,3 +1,3 @@
 # Volleyball-analysis
 
-een app die volleybal analyseren gaat automatiseren doormiddel van machine learning
+een app die volleybal analyse gaat automatiseren doormiddel van machine learning.
