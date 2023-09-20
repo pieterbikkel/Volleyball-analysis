@@ -11,8 +11,20 @@
 		2B20EEF62AA648F10012F717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20EEF52AA648F10012F717 /* ContentView.swift */; };
 		2B20EEFA2AA648F20012F717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B20EEF92AA648F20012F717 /* Assets.xcassets */; };
 		2B20EEFD2AA648F20012F717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B20EEFC2AA648F20012F717 /* Preview Assets.xcassets */; };
-		2B38040E2AA757CA00B5E9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38040D2AA757CA00B5E9C8 /* ViewController.swift */; };
-		2BCE66482AAF282500C64E2C /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE66472AAF282500C64E2C /* Detector.swift */; };
+		2B23E1C52ABAF4530034226B /* TrajectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B23E1C42ABAF4520034226B /* TrajectoryView.swift */; };
+		2B38040E2AA757CA00B5E9C8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38040D2AA757CA00B5E9C8 /* RootViewController.swift */; };
+		2B59A0562AB44BD40058910A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0552AB44BD40058910A /* CameraViewController.swift */; };
+		2B59A05A2AB44CEE0058910A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0592AB44CEE0058910A /* Common.swift */; };
+		2B59A05C2AB455220058910A /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A05B2AB455220058910A /* AppManager.swift */; };
+		2B59A05E2AB45ECC0058910A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A05D2AB45ECC0058910A /* GameViewController.swift */; };
+		2B59A0602AB45F7A0058910A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A05F2AB45F7A0058910A /* ResultsViewController.swift */; };
+		2B59A0622AB4601C0058910A /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0612AB4601C0058910A /* SetupViewController.swift */; };
+		2B59A0642AB482400058910A /* VideoOutputViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0632AB482400058910A /* VideoOutputViews.swift */; };
+		2B59A0662AB4860E0058910A /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0652AB4860E0058910A /* BoundingBoxView.swift */; };
+		2B59A0682AB487370058910A /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0672AB487370058910A /* AnimatedTransitioning.swift */; };
+		2B59A06A2AB488CC0058910A /* JointSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A0692AB488CC0058910A /* JointSegmentView.swift */; };
+		2B59A06C2AB48B250058910A /* PlayerActionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A06B2AB48B250058910A /* PlayerActionClassifier.mlmodel */; };
+		2B59A06E2AB48E590058910A /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59A06D2AB48E590058910A /* MyAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +33,20 @@
 		2B20EEF52AA648F10012F717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B20EEF92AA648F20012F717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B20EEFC2AA648F20012F717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2B38040D2AA757CA00B5E9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2BCE66472AAF282500C64E2C /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		2B23E1C42ABAF4520034226B /* TrajectoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrajectoryView.swift; sourceTree = "<group>"; };
+		2B38040D2AA757CA00B5E9C8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2B59A0552AB44BD40058910A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2B59A0592AB44CEE0058910A /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2B59A05B2AB455220058910A /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		2B59A05D2AB45ECC0058910A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2B59A05F2AB45F7A0058910A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2B59A0612AB4601C0058910A /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		2B59A0632AB482400058910A /* VideoOutputViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoOutputViews.swift; sourceTree = "<group>"; };
+		2B59A0652AB4860E0058910A /* BoundingBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
+		2B59A0672AB487370058910A /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
+		2B59A0692AB488CC0058910A /* JointSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JointSegmentView.swift; sourceTree = "<group>"; };
+		2B59A06B2AB48B250058910A /* PlayerActionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PlayerActionClassifier.mlmodel; sourceTree = "<group>"; };
+		2B59A06D2AB48E590058910A /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +79,19 @@
 		2B20EEF22AA648F10012F717 /* Volleyball analysis */ = {
 			isa = PBXGroup;
 			children = (
+				2B23E1C32ABAF2150034226B /* ViewControllers */,
 				2B20EEF32AA648F10012F717 /* Volleyball_analysisApp.swift */,
 				2B20EEF52AA648F10012F717 /* ContentView.swift */,
-				2B38040D2AA757CA00B5E9C8 /* ViewController.swift */,
-				2BCE66472AAF282500C64E2C /* Detector.swift */,
+				2B59A05B2AB455220058910A /* AppManager.swift */,
+				2B59A06D2AB48E590058910A /* MyAppDelegate.swift */,
+				2B59A0652AB4860E0058910A /* BoundingBoxView.swift */,
+				2B59A0692AB488CC0058910A /* JointSegmentView.swift */,
+				2B59A0672AB487370058910A /* AnimatedTransitioning.swift */,
+				2B23E1C42ABAF4520034226B /* TrajectoryView.swift */,
+				2B59A0632AB482400058910A /* VideoOutputViews.swift */,
+				2B59A0592AB44CEE0058910A /* Common.swift */,
 				2B20EEF92AA648F20012F717 /* Assets.xcassets */,
+				2B59A06B2AB48B250058910A /* PlayerActionClassifier.mlmodel */,
 				2B20EEFB2AA648F20012F717 /* Preview Content */,
 			);
 			path = "Volleyball analysis";
@@ -71,6 +103,18 @@
 				2B20EEFC2AA648F20012F717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B23E1C32ABAF2150034226B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B38040D2AA757CA00B5E9C8 /* RootViewController.swift */,
+				2B59A05F2AB45F7A0058910A /* ResultsViewController.swift */,
+				2B59A0612AB4601C0058910A /* SetupViewController.swift */,
+				2B59A05D2AB45ECC0058910A /* GameViewController.swift */,
+				2B59A0552AB44BD40058910A /* CameraViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +187,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B59A05A2AB44CEE0058910A /* Common.swift in Sources */,
+				2B23E1C52ABAF4530034226B /* TrajectoryView.swift in Sources */,
+				2B59A0662AB4860E0058910A /* BoundingBoxView.swift in Sources */,
+				2B59A06C2AB48B250058910A /* PlayerActionClassifier.mlmodel in Sources */,
+				2B59A0682AB487370058910A /* AnimatedTransitioning.swift in Sources */,
+				2B59A06A2AB488CC0058910A /* JointSegmentView.swift in Sources */,
 				2B20EEF62AA648F10012F717 /* ContentView.swift in Sources */,
-				2B38040E2AA757CA00B5E9C8 /* ViewController.swift in Sources */,
+				2B59A0642AB482400058910A /* VideoOutputViews.swift in Sources */,
+				2B59A06E2AB48E590058910A /* MyAppDelegate.swift in Sources */,
+				2B59A0562AB44BD40058910A /* CameraViewController.swift in Sources */,
+				2B59A05E2AB45ECC0058910A /* GameViewController.swift in Sources */,
+				2B38040E2AA757CA00B5E9C8 /* RootViewController.swift in Sources */,
+				2B59A0622AB4601C0058910A /* SetupViewController.swift in Sources */,
+				2B59A0602AB45F7A0058910A /* ResultsViewController.swift in Sources */,
 				2B20EEF42AA648F10012F717 /* Volleyball_analysisApp.swift in Sources */,
-				2BCE66482AAF282500C64E2C /* Detector.swift in Sources */,
+				2B59A05C2AB455220058910A /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
