@@ -56,9 +56,8 @@ class JointSegmentView: UIView, AnimatedTransitioning {
         jointPath.removeAllPoints()
         jointSegmentPath.removeAllPoints()
         // Add all joints and segments
-        let jointNames = Array(joints.keys)
-        for index in 0 ..< joints.keys.count {
-            if let nextJoint = joints[jointNames[index]] {
+        for index in 0 ..< jointsOfInterest.count {
+            if let nextJoint = joints[jointsOfInterest[index]] {
                 let nextJointScaled = nextJoint.applying(flipVertical).applying(scaleToBounds)
                 let nextJointPath = UIBezierPath(arcCenter: nextJointScaled, radius: jointRadius,
                                                  startAngle: CGFloat(0), endAngle: CGFloat.pi * 2, clockwise: true)

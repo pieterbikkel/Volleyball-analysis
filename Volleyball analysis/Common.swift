@@ -239,9 +239,22 @@ let jointsOfInterest: [VNHumanBodyPoseObservation.JointName] = [
     .rightWrist,
     .rightElbow,
     .rightShoulder,
+    .leftShoulder,
+    .leftHip,
+    .rightHip,
+    .rightShoulder,
     .rightHip,
     .rightKnee,
-    .rightAnkle
+    .rightAnkle,
+    .rightHip,
+    .leftHip,
+    .leftKnee,
+    .leftAnkle,
+    .leftKnee,
+    .leftHip,
+    .leftShoulder,
+    .leftElbow,
+    .leftWrist,
 ]
 
 func armJoints(for observation: VNHumanBodyPoseObservation) -> (CGPoint, CGPoint) {
@@ -271,9 +284,9 @@ func getBodyJointsFor(observation: VNHumanBodyPoseObservation) -> ([VNHumanBodyP
     }
     for (key, point) in identifiedPoints {
         guard point.confidence > 0.1 else { continue }
-//        if jointsOfInterest.contains(key) {
+        if jointsOfInterest.contains(key) {
             joints[key] = point.location
-//        }
+        }
     }
     return joints
 }
